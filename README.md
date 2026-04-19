@@ -64,10 +64,6 @@ Variant Calling (GATK HaplotypeCaller)
     ↓
 Extract & Filter SNPs (GATK)
     ↓
-Extract & Filter Indels (GATK)
-    ↓
-Merge Variants
-    ↓
 Variant Annotation (SnpEff)
     ↓
 Extract Heterozygous Sites
@@ -407,28 +403,6 @@ cut -f3 ASE_final.txt | sort -u > ASE_genes.txt
 Rscript scripts/GO_enrichment.R ASE_genes.txt
 ```
 
-## Citation
-
-If you use this pipeline, please cite:
-
-**Original Study**:
-> Villalobos-Escobedo JM, et al. (2020). A Nox1-regulated metabolic network is critical for bacterial recognition and plant immunity. *The Plant Journal*.
-
-**GATK**:
-> McKenna A, et al. (2010). The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. *Genome Research*.
-
-**SnpEff**:
-> Cingolani P, et al. (2012). A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff. *Fly*.
-
-## License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-## Contact
-
-**Author**: [Your Name] 
-**Email**: [your.email@domain.com] 
-**GitHub**: [@yourusername](https://github.com/yourusername)
 
 ## Acknowledgments
 
